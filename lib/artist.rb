@@ -29,6 +29,8 @@ class Artist
   
   def self.find_or_create_by_name(x)
     ec = @@all.find {|artist| artist.name == x}
+    if ec
+      ec
 
   
   def print_songs
