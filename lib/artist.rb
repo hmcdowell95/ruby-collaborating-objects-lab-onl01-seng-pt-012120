@@ -32,6 +32,7 @@ class Artist
     if ec
       ec
     else
+      name = Artist.new(x)
       
 
   
