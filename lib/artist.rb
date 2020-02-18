@@ -31,6 +31,8 @@ class Artist
     ec = @@all.find {|artist| artist.name == x}
     if ec
       ec
+    else
+      
 
   
   def print_songs
