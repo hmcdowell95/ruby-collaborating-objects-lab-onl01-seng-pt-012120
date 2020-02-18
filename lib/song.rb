@@ -23,6 +23,7 @@ class Song
     y = a[0]
     b = Song.new(z)
     b.artist_name=(y)
+    b
   end
   
   def artist_name=(x)
