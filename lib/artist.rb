@@ -33,7 +33,9 @@ class Artist
       ec
     else
       name = Artist.new(x)
-      
+      name
+    end
+  end
 
   
   def print_songs
